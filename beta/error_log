@@ -1,0 +1,60 @@
+[04-Jul-2020 11:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esch_html_e() in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php:377
+Stack trace:
+#0 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(158): require()
+#1 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(101): mm_cs_content()
+#2 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(287): mm_cs_load('')
+#3 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/asquarg1/public_html/asquare/beta/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home2/asquarg1/public_html/asquare/beta/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home2/asquarg1/public_html/asquare/beta/wp-blog-header.php(19): require_once('/home2/asquarg1...')
+#7 /home2/asquarg1/public_html/asquare/beta/i in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php on line 377
+[04-Jul-2020 11:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esch_html_e() in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php:377
+Stack trace:
+#0 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(158): require()
+#1 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(101): mm_cs_content()
+#2 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(287): mm_cs_load('')
+#3 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/asquarg1/public_html/asquare/beta/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home2/asquarg1/public_html/asquare/beta/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home2/asquarg1/public_html/asquare/beta/wp-blog-header.php(19): require_once('/home2/asquarg1...')
+#7 /home2/asquarg1/public_html/asquare/beta/i in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php on line 377
+[04-Jul-2020 11:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esch_html_e() in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php:377
+Stack trace:
+#0 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(158): require()
+#1 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(101): mm_cs_content()
+#2 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(287): mm_cs_load('')
+#3 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/asquarg1/public_html/asquare/beta/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home2/asquarg1/public_html/asquare/beta/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home2/asquarg1/public_html/asquare/beta/wp-blog-header.php(19): require_once('/home2/asquarg1...')
+#7 /home2/asquarg1/public_html/asquare/beta/i in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php on line 377
+[13-Jul-2020 20:00:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esch_html_e() in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php:377
+Stack trace:
+#0 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(158): require()
+#1 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(101): mm_cs_content()
+#2 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(287): mm_cs_load('')
+#3 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/asquarg1/public_html/asquare/beta/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home2/asquarg1/public_html/asquare/beta/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home2/asquarg1/public_html/asquare/beta/wp-blog-header.php(19): require_once('/home2/asquarg1...')
+#7 /home2/asquarg1/public_html/asquare/beta/i in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php on line 377
+[14-Jul-2020 17:26:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esch_html_e() in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php:377
+Stack trace:
+#0 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(158): require()
+#1 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(101): mm_cs_content()
+#2 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(287): mm_cs_load('')
+#3 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/asquarg1/public_html/asquare/beta/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home2/asquarg1/public_html/asquare/beta/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home2/asquarg1/public_html/asquare/beta/wp-blog-header.php(19): require_once('/home2/asquarg1...')
+#7 /home2/asquarg1/public_html/asquare/beta/i in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php on line 377
+[15-Jul-2020 07:00:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esch_html_e() in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php:377
+Stack trace:
+#0 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(158): require()
+#1 /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/inc/coming-soon.php(101): mm_cs_content()
+#2 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(287): mm_cs_load('')
+#3 /home2/asquarg1/public_html/asquare/beta/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/asquarg1/public_html/asquare/beta/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home2/asquarg1/public_html/asquare/beta/wp-includes/template-loader.php(13): do_action('template_redire...')
+#6 /home2/asquarg1/public_html/asquare/beta/wp-blog-header.php(19): require_once('/home2/asquarg1...')
+#7 /home2/asquarg1/public_html/asquare/beta/i in /home2/asquarg1/public_html/asquare/beta/wp-content/plugins/mojo-marketplace-wp-plugin/pages/coming-soon/bluehost.php on line 377

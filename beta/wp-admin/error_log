@@ -1,2 +1,0 @@
-[14-Jul-2020 18:20:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/asquarg1/public_html/asquare/beta/wp-admin/includes/template.php:2426) in /home2/asquarg1/public_html/asquare/beta/wp-includes/pluggable.php on line 1281
-[14-Jul-2020 18:20:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/asquarg1/public_html/asquare/beta/wp-admin/includes/template.php:2426) in /home2/asquarg1/public_html/asquare/beta/wp-includes/pluggable.php on line 1284

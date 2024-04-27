@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map Test</title>
+
+
+<body>
+
+
+ 
+   
+
+    <div id="myData"></div>
+    <script>
+        
+        
+
+     //   alert('https://maps.googleapis.com/maps/api/geocode/json?address='+addr1+'&key=AIzaSyD0nhPBn5BogxLbIu2H5u-85FHyl9zvzgo');
+       function doCheck()
+        {
+        var addr1=document.getElementById("addr").value;
+        
+        alert(addr1);
+
+       // alert('https://maps.googleapis.com/maps/api/geocode/json?address='+addr1+'&key=AIzaSyD0nhPBn5BogxLbIu2H5u-85FHyl9zvzgo');
+         
+    
+    fetch('https://maps.googleapis.com/maps/api/geocode/json?address='+addr1+'&key=AIzaSyD0nhPBn5BogxLbIu2H5u-85FHyl9zvzgo')
+    .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                console.log(data);
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("myData");
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+                mainContainer.appendChild(div);
+            }
+        }
+        }
+        
+    </script>
+    
+    <form>
+      Address :  <input type="text" id="addr"> <br>
+      <input type="button" value="Check Response Json" onclick="doCheck()">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+       
+
+     //   alert('https://maps.googleapis.com/maps/api/geocode/json?address='+addr1+'&key=AIzaSyD0nhPBn5BogxLbIu2H5u-85FHyl9zvzgo');
+        
+    
+    fetch('https://maps.googleapis.com/maps/api/geocode/json?address='+'Lotus'+' Super'+' Market'+'&key=AIzaSyD0nhPBn5BogxLbIu2H5u-85FHyl9zvzgo')
+    .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                console.log(data);
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("myData");
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+                mainContainer.appendChild(div);
+            }
+        }
+        
+    </script>
+</head>
+
+
+<body>
+
+
+<form>
+    Address : 
+   
+
+    <div id="myData"></div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('#contactForm').submit(function(e){
+            e.preventDefault();
+            var formData = $(this).serialize();
+            $.ajax({
+                type: 'POST',
+                url: 'mailer22.php',
+                data: formData,
+                success: function(response){
+                    $('#responseMessage').text(response);
+                    $('#contactForm')[0].reset();
+                }
+            });
+        });
+    });
+</script>
+
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form id="contactForm" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit">Submit</button>
+        <div id="responseMessage"></div>
+
+    </form>
+</body>
+</html>

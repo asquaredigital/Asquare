@@ -64,7 +64,7 @@
             var formData = $(this).serialize();
             $.ajax({
                 type: 'POST',
-                url: 'mailer.php',
+                url: 'contactform/mailer.php',
                 data: formData,
                 success: function(response){
                     $('#sendmessage').text(response = "Email sent successfully");

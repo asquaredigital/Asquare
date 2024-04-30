@@ -59,7 +59,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     $(document).ready(function(){
-        $('#contactForm').submit(function(e){
+      $('#contactForm').submit(function(e){
             e.preventDefault();
             var formData = $(this).serialize();
             $.ajax({
@@ -67,12 +67,8 @@
                 url: 'contactform/mailer1.php',
                 data: formData,
                 success: function(response){
-                    $('#sendmessage').text(response = "Email sent successfully");
+                    $('#responseMessage').text(response);
                     $('#contactForm')[0].reset();
-                },
-                error: function(xhr, status, error) {
-                    // Display error message if AJAX request fails
-                    $('#errormessage').text(xhr.responseText);
                 }
             });
         });
@@ -539,8 +535,7 @@ src="https://www.facebook.com/tr?id=343430916679083&ev=PageView&noscript=1"
             </div>
 
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
+             
               <form  id="contactForm" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
@@ -561,7 +556,8 @@ src="https://www.facebook.com/tr?id=343430916679083&ev=PageView&noscript=1"
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-                
+                <div id="responseMessage"></div>
+
                 <!-- <div id="responseMessage" style="color: red;"></div> Error message will be displayed here -->
 
               </form>

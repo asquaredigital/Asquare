@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/vendor/autoload.php';
+require '../../vendor/vendor/autoload.php';
 
 use Aws\Ses\SesClient;
 use Aws\Exception\AwsException;
@@ -44,7 +44,7 @@ if (!filter_var($u_email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Load AWS configuration
-$config = require '../vendor/config.php';
+$config = require '../../vendor/config.php';
 $awsKey = $config['aws']['key'];
 $awsSecret = $config['aws']['secret'];
 $awsRegion = $config['aws']['region'];
@@ -66,7 +66,7 @@ $headers = "From: www.asquare.tech" . "\r\n" .
 $message = "Name: $u_name\nEmail: $u_email\nMessage: $msg";
 
 $senderEmail = 'asquaremailer@gmail.com';
-$recipientEmail = 'alageswaranb2@gmail.com';
+$recipientEmail = 'elavarasan5193@gmail.com';
 
 try {
     $result = $sesClient->sendEmail([

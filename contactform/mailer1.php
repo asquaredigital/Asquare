@@ -90,8 +90,8 @@ try {
     ]);
 
     // Prepare JSON response
-    $response = ["Email sent successfully"];
-    echo json_encode($response);
+    $response = "Email sent successfully";
+    echo $response;
 } catch (AwsException $e) {
     // Prepare JSON error response
     $response = ['message' => 'Failed to send email.', 'error' => $e->getAwsErrorMessage()];
